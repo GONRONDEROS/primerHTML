@@ -7,7 +7,7 @@ const publicPath = path.resolve(__dirname, "./public") ;
 app.use(express.static(publicPath));
 
 app.listen(5000, () => {
-    console.log("Servidor funcionando correctamente en 3000");
+    console.log("Servidor funcionando correctamente en http://localhost:5000/home");
 });
 
 app.get("/home", (req, res) => {
